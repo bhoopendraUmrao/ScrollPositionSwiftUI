@@ -11,6 +11,7 @@
 		A8AA3B312C159E3B00F6F138 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA3B302C159E3B00F6F138 /* ContentView.swift */; };
 		A8AA3B332C159E3C00F6F138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AA3B322C159E3C00F6F138 /* Assets.xcassets */; };
 		A8AA3B362C159E3C00F6F138 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AA3B352C159E3C00F6F138 /* Preview Assets.xcassets */; };
+		A8AA3B3E2C159E7300F6F138 /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA3B3D2C159E7300F6F138 /* ObservableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A8AA3B302C159E3B00F6F138 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8AA3B322C159E3C00F6F138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8AA3B352C159E3C00F6F138 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8AA3B3D2C159E7300F6F138 /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A8AA3B2D2C159E3B00F6F138 /* ScrollPositionSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A8AA3B3C2C159E6300F6F138 /* ObservableScrollView */,
 				A8AA3B2E2C159E3B00F6F138 /* ScrollPositionSwiftUIApp.swift */,
 				A8AA3B302C159E3B00F6F138 /* ContentView.swift */,
 				A8AA3B322C159E3C00F6F138 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				A8AA3B352C159E3C00F6F138 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8AA3B3C2C159E6300F6F138 /* ObservableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A8AA3B3D2C159E7300F6F138 /* ObservableScrollView.swift */,
+			);
+			path = ObservableScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A8AA3B312C159E3B00F6F138 /* ContentView.swift in Sources */,
 				A8AA3B2F2C159E3B00F6F138 /* ScrollPositionSwiftUIApp.swift in Sources */,
+				A8AA3B3E2C159E7300F6F138 /* ObservableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
