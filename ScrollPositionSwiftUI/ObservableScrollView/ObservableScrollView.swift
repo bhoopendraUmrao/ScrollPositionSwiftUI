@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ContentOffsetKey: PreferenceKey {
     typealias Value = CGFloat
     static var defaultValue = CGFloat.zero
